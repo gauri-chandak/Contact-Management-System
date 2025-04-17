@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #a96beb);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Search Box */
+#searchBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: #333;
+}
+
+/* Contact List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    background: white;
+    color: black;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #6a11cb;
+    color: white;
+}
+
+/* Edit & Delete Buttons */
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.edit-btn {
+    background-color: #ffd700;
+    color: black;
+}
+
+.delete-btn {
+    background-color: #ff4747;
+    color: white;
+}
+
+/* Back Button */
+.back-btn {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

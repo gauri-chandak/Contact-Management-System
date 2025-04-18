@@ -1,7 +1,8 @@
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #6a11cb, #a96beb);
+    /* background: linear-gradient(to right, #6a11cb, #a96beb); */
+    background-image: url('https://wallpaperaccess.com/full/1567677.jpg');
     color: white;
     text-align: center;
     min-height: 100vh;
@@ -55,8 +56,7 @@ li {
 /* Table */
 table {
     width: 100%;
-    background: white;
-    color: black;
+    color: white;
     border-collapse: collapse;
     margin-top: 10px;
 }
@@ -68,7 +68,7 @@ th, td {
 }
 
 th {
-    background: #6a11cb;
+    background: #271399;
     color: white;
 }
 

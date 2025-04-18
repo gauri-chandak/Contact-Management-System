@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Management System</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="auth.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Contact Management System</h1>
-        <div class="buttons">
-            <button class="btn" onclick="window.location.href='addContacts.html';">Add Contact</button>
-            <button class="btn" onclick="window.location.href='contactList.html';">Contact List</button>
-        </div>
+    <div class="auth-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="loginUsername" placeholder="Username" required><br>
+            <input type="password" id="loginPassword" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
     </div>
+
+    <script src="auth.js"></script>
 </body>
-</html> 
+</html>

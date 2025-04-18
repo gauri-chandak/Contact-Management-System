@@ -1,7 +1,8 @@
 /* Apply gradient background */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #5a2dc6, #6a11cb);
+    /* background: linear-gradient(to right, #5a2dc6, #6a11cb); */
+    background-image: url('https://wallpaperaccess.com/full/1567677.jpg');
     color: white;
     text-align: center;
     height: 100vh;

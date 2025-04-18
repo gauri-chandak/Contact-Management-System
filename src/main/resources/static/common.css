@@ -1,0 +1,14 @@
+/* common.css */
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #5a2dc6, #6a11cb); */
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* background: linear-gradient(to right, #5b5a5a, #988f8f); */
+    background: linear-gradient(to right, #1f2a44, #3d4f7c);
+}

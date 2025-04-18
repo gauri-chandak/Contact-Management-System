@@ -12,25 +12,27 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-}
+    background-image: url('https://wallpaperaccess.com/full/1567677.jpg');
+}    
 
 /* Container styles */
 .container {
     width: 90%;
     max-width: 500px;
     padding: 20px;
-}
+};
 
 /* Header */
 h1 {
-    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    /* font-size: 32px;
     margin-bottom: 30px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     background: linear-gradient(to right, #ffffff, #d8d8d8);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;  */
 }
 
 /* Buttons container */
@@ -42,7 +44,7 @@ h1 {
 }
 
 /* Button styling */
-.btn {
+.btns {
     background: rgba(255, 255, 255, 0.2);
     padding: 30px;
     text-decoration: none;
@@ -65,20 +67,20 @@ h1 {
 }
 
 /* Add icons inside buttons */
-.btn img {
+.btns img {
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
 
 /* Hover effect */
-.btn:hover {
+.btns:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.05);
     box-shadow: 0 6px 14px rgba(255, 255, 255, 0.5);
 }
 
-.btn::before {
+.btns::before {
     content: "📞";
     font-size: 40px;
     position: absolute;
@@ -86,3 +88,17 @@ h1 {
     opacity:0.7;
     
 } 
+.Btn{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 10px; /* Adjust this value to move it down/up */
+    right: 10px; /* Adjust this value to move it left/right */
+    padding: 10px 20px; /* Adjust padding for button size */
+    background-color: #ff4d4d; /* You can change the color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
